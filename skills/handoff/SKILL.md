@@ -22,6 +22,27 @@ Design doc: `research/dev-workflows/755-handoff-skill-design/README.md` (in ZAO 
 
 The bundle is **recursive-friendly**: the receiver pastes the whole thing into a fresh session and the model knows exactly what to do because of the receiver preamble at the top. The receiver can ALSO `/handoff` again later, chaining bundles. Each bundle's "Previous handoffs in chain" pointer keeps the lineage traceable.
 
+**The `chain:` field has three accepted shapes** (pick the most accurate one):
+- `chain: none` - first handoff for this thread of work
+- `chain: <path-to-prior-bundle>` - sequential, this bundle resumes from the named one
+- `chain: sibling:<path>` - parallel session, related to but not derived from the named bundle (e.g. two terminals working different facets of the same project)
+
+**Skip transient overlays in Section E "Skills invoked"**. List discrete `/skill` invocations only - omit startup-hook overlays (`caveman:caveman`, `superpowers:using-superpowers`) and ambient session-config skills that are always-on. They are noise in the cold-start map.
+
+**Always append an "Inline copy-paste block" at the very bottom of the bundle** - a one-line instruction the receiver can fire instantly without scrolling through the bundle to find the path:
+
+```
+## Inline copy-paste block (for fast receiver paste)
+
+```
+Ingest the bundle at <full-path-to-this-README> and follow receiver instructions at the top. <N> tasks to absorb.
+```
+```
+
+That single line is what the receiver pastes when they just want to dispatch a fresh session pointed at the bundle.
+
+**Always surface friction-source observations** in Section B (decisions / why). When the session hit a sandbox block, an ENOSPC, a flaky API, a permissions gate, etc - document it explicitly so the next session does not re-discover it. Friction-source surfacing is the highest-value thing the bundle does. If you skip it, future sessions waste cycles re-learning what you already know.
+
 ```markdown
 # Session handoff - YYYY-MM-DD HH:MM
 > from <source machine + branch> -> to <receiver, default "fresh CC terminal">

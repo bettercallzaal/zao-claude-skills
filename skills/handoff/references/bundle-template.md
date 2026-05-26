@@ -1,8 +1,10 @@
 # /handoff bundle template
 
-Single-file markdown bundle. Five fixed sections (A-E) in this exact order. Paste-anywhere - works in any Claude Code session, claude.ai, or as a research doc for future-you.
+Single-file markdown bundle. Five fixed sections (A-E) plus a closing "Inline copy-paste block" in this exact order. Paste-anywhere - works in any Claude Code session, claude.ai, or as a research doc for future-you.
 
 Section A is task-first because most receivers are already working on something and want the actionable items, not the backstory. B-E are opt-in.
+
+**`chain:` field** - pick one shape: `none` (first in chain), `<path-to-prior-bundle>` (sequential), or `sibling:<path>` (parallel session, related but not derived).
 
 ---
 
@@ -57,13 +59,19 @@ You just received a handoff bundle. Do NOT start work yet. Do this:
 ## E. Cold-start map (read if you are confused)
 - Files touched this session:
   - `<path>` - <one-line note about what changed>
-- Skills invoked:
+- Skills invoked (discrete /skill calls only - skip caveman / startup overlays):
   - `/<skill>` - <count> times - <last-call result note>
 - Memory writes:
   - `<memory_slug.md>` - <new | updated> - <one-line>
 - Last-known mental model: <2-3 sentences. What were we working on? Where did we leave off? What's next?>
 - Open questions for the receiver:
   - <item the receiver should clarify with the user before resuming>
+
+## Inline copy-paste block (for fast receiver paste)
+
+```
+Ingest the bundle at <full-path-to-this-README> and follow receiver instructions at the top. <N> tasks to absorb.
+```
 ```
 
 ---
