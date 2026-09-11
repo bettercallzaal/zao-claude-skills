@@ -104,7 +104,7 @@ Mark every source [FULL] / [PARTIAL - what is missing] / [FAILED - what was trie
 ### Step 4: Write
 Edit the target file(s). Brand rules:
 - NO emojis, NO em-dashes (hyphens only), NO decorative Unicode.
-- Exact spellings: ORDAO, OREC, ZOR, $ZAO Respect, Optimystics, SingJoy, Tadas Vaitiekunas, sim31, Daniel Larimer, Fractally, Eden Fractal, Optimism Fractal, ZAO Fractal, Roy Fractal, BetterCallZaal, ZAO OS, FISHBOWLZ, ZABAL, SongJam, COC Concertz, WaveWarZ, NERDDAO, Huottoja.
+- Exact spellings: ORDAO, OREC, ZOR, $ZAO Respect, Optimystics, SingJoy, Tadas Vaitiekunas, sim31, Daniel Larimer, Fractally, Eden Fractal, Optimism Fractal, ZAO Fractal, Roy Fractal, BetterCallZaal, ZAO OS, FISHBOWLZ, ZABAL, COC Concertz, WaveWarZ, NERDDAO, Huöttöja.
 - No fabrication. Numbers, dates, contract addresses must trace to a source. Unknown -> write UNKNOWN.
 
 ### Step 5: Cross-link

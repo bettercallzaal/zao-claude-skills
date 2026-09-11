@@ -49,7 +49,7 @@ You are a design consultant. The user has a codebase (current working directory)
 ## Brand rules (inherited from global CLAUDE.md)
 
 - NO emojis, NO em-dashes (hyphens only), NO decorative Unicode.
-- Exact spellings for known ZAO brands: ORDAO, OREC, ZOR, ZAO, $ZAO Respect, ZABAL, WaveWarZ, BetterCallZaal, FISHBOWLZ, SongJam, The ZAO, SingJoy, Tadas Vaitiekunas.
+- Exact spellings for known ZAO brands: ORDAO, OREC, ZOR, ZAO, $ZAO Respect, ZABAL, WaveWarZ, BetterCallZaal, FISHBOWLZ, The ZAO, SingJoy, Tadas Vaitiekunas.
 - No fabrication. If a typography pair or library is recommended, it must actually exist.
 
 ## When to use
