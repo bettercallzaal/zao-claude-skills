@@ -97,7 +97,7 @@ The `description` field in SKILL.md frontmatter is the trigger - the model uses 
 ## Branding + glossary
 
 These skills assume the canonical spellings from the ZAO brand glossary:
-WaveWarZ, COC Concertz, The ZAO, BetterCallZaal, Joseph Goats, Huöttöja, SongJam, ZABAL, SANG, ZOE, ZOLs, FISHBOWLZ, Stilo World, Magnetiq, Restream, Cal.com, Lu.ma. Do not auto-correct.
+WaveWarZ, COC Concertz, The ZAO, BetterCallZaal, Joseph Goats, Huöttöja, ZABAL, ZOE, ZOLs, FISHBOWLZ, Stilo World, Restream, Cal.com, Lu.ma. Do not auto-correct.
 
 ## License
 
